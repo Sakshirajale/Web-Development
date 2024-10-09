@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 40px; /* Added margin for the body */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added shadow effect */
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 80px); /* Adjusted height considering margin */
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+            border: 2px solid #2c3e50;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for the heading */
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for contact items */
+            border-radius: 8px; /* Rounded corners for contact items */
+        }
+
+        .contact-item img {
+            margin-right: 15px;
+        }
+
+        .contact-item a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .contact-item a:hover {
+            color: #0056b3;
+        }
+
+        .contact-item p {
+            font-size: 18px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <div class="contact-info">
+        <div class="contact-item">
+            <img src="phone.jpg" height="50" width="50" alt="Phone" />
+            <p>9309989515</p>
+        </div>
+        <div class="contact-item">
+            <img src="hackerrank.jpg" height="50" width="50" alt="HackerRank" />
+            <a href="https://www.hackerrank.com/profile/sakshirajale558">HackerRank</a>
+        </div>
+        <div class="contact-item">
+            <img src="linkdin.jpg" height="50" width="50" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/sakshi-rajale-7b5a38256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
